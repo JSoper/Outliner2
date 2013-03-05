@@ -1,0 +1,29 @@
+{
+    "type": "treestore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ExtlinerTreeStore",
+        "storeId": "MyJsonTreeStore",
+        "model": "ExtlinerRowModel"
+    },
+    "id": "ExtBox1-ext-gen5487",
+    "designerId": "3991b04c-ffbc-417c-bae2-c718e4545282",
+    "cn": [
+        {
+            "type": "localstorageproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyLocalStorageProxy"
+            },
+            "designerId": "eec1010d-101d-45b3-a067-26a9b334ab8d"
+        }
+    ]
+}

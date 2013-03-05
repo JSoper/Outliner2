@@ -1,0 +1,67 @@
+{
+    "expandedState": {
+        "data": true,
+        "model": true,
+        "component": true,
+        "controller": true,
+        "resource": true,
+        "e9ff9317-dd05-47ce-aea5-6391a5cf416b": {
+            "id": "e9ff9317-dd05-47ce-aea5-6391a5cf416b",
+            "cn": [
+                {
+                    "id": "be9d86d0-3990-45c8-8645-e54b248abeb6",
+                    "cn": [
+                        {
+                            "id": "6f798396-c090-4244-9f59-74c23fa858ae"
+                        },
+                        {
+                            "id": "97786856-1ff4-46d8-84e3-814f39e746b7"
+                        },
+                        {
+                            "id": "6d288e27-ff4d-48fd-abdc-0efb4bbcd502"
+                        },
+                        {
+                            "id": "cd545901-7f84-4f16-91d3-d12ee78ee7cc"
+                        }
+                    ]
+                },
+                {
+                    "id": "07404087-8962-4ef1-a40a-dc377d69c7ca"
+                }
+            ]
+        },
+        "3991b04c-ffbc-417c-bae2-c718e4545282": {
+            "id": "3991b04c-ffbc-417c-bae2-c718e4545282",
+            "cn": [
+                {
+                    "id": "eec1010d-101d-45b3-a067-26a9b334ab8d"
+                }
+            ]
+        },
+        "83157bee-eef1-4928-8dfc-1fcfa14799e1": {
+            "id": "83157bee-eef1-4928-8dfc-1fcfa14799e1",
+            "cn": [
+                {
+                    "id": "18946133-677d-482b-963c-0a3713cd96f7"
+                }
+            ]
+        },
+        "82a5a6b8-f4d0-4090-8e78-1c549a98a8c9": {
+            "id": "82a5a6b8-f4d0-4090-8e78-1c549a98a8c9",
+            "cn": [
+                {
+                    "id": "3e90a11d-88fe-44dd-aa4c-0d06ca939323"
+                },
+                {
+                    "id": "2d2eb99f-c856-437d-a7f4-392dceb69bc3"
+                },
+                {
+                    "id": "324c58b7-0de7-4907-aa39-20c77dfe6c27"
+                }
+            ]
+        },
+        "e2bb353f-bfe6-4a72-b48f-f3b33d19bcc0": {
+            "id": "e2bb353f-bfe6-4a72-b48f-f3b33d19bcc0"
+        }
+    }
+}

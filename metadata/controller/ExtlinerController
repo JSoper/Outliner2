@@ -1,0 +1,78 @@
+{
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ExtlinerController"
+    },
+    "id": "ExtBox1-ext-gen8917",
+    "designerId": "82a5a6b8-f4d0-4090-8e78-1c549a98a8c9",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onPlusToolClick",
+                "fn": "onPlusToolClick",
+                "implHandler": [
+                    "console.log( \"onToolClick\", tool.type );\r",
+                    "var record = Ext.create('MyApp.model.ExtlinerRowModel');\r",
+                    "var store = Ext.getStore('ExtlinerTreeStore')\r",
+                    "store.addRecord"
+                ],
+                "name": "click",
+                "scope": "me",
+                "designer|targetType": "Ext.panel.Tool",
+                "designer|controlQuery": "tool[type=plus]"
+            },
+            "designerId": "3e90a11d-88fe-44dd-aa4c-0d06ca939323"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onMinusToolClick",
+                "fn": "onMinusToolClick",
+                "implHandler": [
+                    "console.log( \"onToolClick\", tool.type );"
+                ],
+                "name": "click",
+                "scope": "me",
+                "designer|targetType": "Ext.panel.Tool",
+                "designer|controlQuery": "tool[type=minus]"
+            },
+            "designerId": "2d2eb99f-c856-437d-a7f4-392dceb69bc3"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onSaveToolClick",
+                "fn": "onSaveToolClick",
+                "implHandler": [
+                    "console.log( \"onToolClick\", tool.type );"
+                ],
+                "name": "click",
+                "scope": "me",
+                "designer|targetType": "Ext.panel.Tool",
+                "designer|controlQuery": "tool[type=save]"
+            },
+            "designerId": "324c58b7-0de7-4907-aa39-20c77dfe6c27"
+        }
+    ]
+}

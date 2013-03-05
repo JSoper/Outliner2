@@ -1,0 +1,114 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|userClassName": "ExtlinerMainPanel",
+        "designer|initialView": true,
+        "height": 600,
+        "width": 800,
+        "layout": "hbox",
+        "title": "Extliner"
+    },
+    "id": "ExtBox1-ext-gen1945",
+    "designerId": "e9ff9317-dd05-47ce-aea5-6391a5cf416b",
+    "cn": [
+        {
+            "type": "treepanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 0.3,
+                "designer|userClassName": "MyTreePanel",
+                "width": null,
+                "autoScroll": true,
+                "title": "Topics",
+                "store": "ExtlinerTreeStore"
+            },
+            "designerId": "be9d86d0-3990-45c8-8645-e54b248abeb6",
+            "cn": [
+                {
+                    "type": "treeview",
+                    "reference": {
+                        "name": "viewConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTreeView"
+                    },
+                    "designerId": "6f798396-c090-4244-9f59-74c23fa858ae"
+                },
+                {
+                    "type": "tool",
+                    "reference": {
+                        "name": "tools",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTool",
+                        "designer|displayName": "PlusTool",
+                        "tooltip": null,
+                        "tooltipType": null,
+                        "type": "plus"
+                    },
+                    "designerId": "97786856-1ff4-46d8-84e3-814f39e746b7"
+                },
+                {
+                    "type": "tool",
+                    "reference": {
+                        "name": "tools",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTool1",
+                        "designer|displayName": "MinusTool",
+                        "type": "minus"
+                    },
+                    "designerId": "6d288e27-ff4d-48fd-abdc-0efb4bbcd502"
+                },
+                {
+                    "type": "tool",
+                    "reference": {
+                        "name": "tools",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTool2",
+                        "designer|displayName": "SaveTool",
+                        "type": "save"
+                    },
+                    "designerId": "cd545901-7f84-4f16-91d3-d12ee78ee7cc"
+                }
+            ]
+        },
+        {
+            "type": "htmleditor",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "designer|userClassName": "MyHTMLEditor",
+                "height": null,
+                "style": [
+                    "background-color: white;"
+                ],
+                "fieldLabel": null
+            },
+            "designerId": "07404087-8962-4ef1-a40a-dc377d69c7ca"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "name": "Outliner2",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 676,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "e9ff9317-dd05-47ce-aea5-6391a5cf416b": {
+            "paths": [
+                "metadata/view/ExtlinerMainPanel",
+                "app/view/override/ExtlinerMainPanel.js",
+                "app/view/ExtlinerMainPanel.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "ExtlinerMainPanel"
+        },
+        "e2bb353f-bfe6-4a72-b48f-f3b33d19bcc0": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "83157bee-eef1-4928-8dfc-1fcfa14799e1": {
+            "paths": [
+                "metadata/model/ExtlinerRowModel",
+                "app/model/override/ExtlinerRowModel.js",
+                "app/model/ExtlinerRowModel.js"
+            ],
+            "className": "ExtlinerRowModel"
+        },
+        "3991b04c-ffbc-417c-bae2-c718e4545282": {
+            "paths": [
+                "metadata/store/ExtlinerTreeStore",
+                "app/store/override/ExtlinerTreeStore.js",
+                "app/store/ExtlinerTreeStore.js"
+            ],
+            "className": "ExtlinerTreeStore"
+        },
+        "82a5a6b8-f4d0-4090-8e78-1c549a98a8c9": {
+            "paths": [
+                "metadata/controller/ExtlinerController",
+                "app/controller/override/ExtlinerController.js",
+                "app/controller/ExtlinerController.js"
+            ],
+            "className": "ExtlinerController"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "e9ff9317-dd05-47ce-aea5-6391a5cf416b"
+        ],
+        "store": [
+            "3991b04c-ffbc-417c-bae2-c718e4545282"
+        ],
+        "controller": [
+            "82a5a6b8-f4d0-4090-8e78-1c549a98a8c9"
+        ],
+        "model": [
+            "83157bee-eef1-4928-8dfc-1fcfa14799e1"
+        ],
+        "resource": [
+            "e2bb353f-bfe6-4a72-b48f-f3b33d19bcc0"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

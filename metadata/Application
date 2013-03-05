@@ -1,0 +1,26 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "ExtlinerRowModel"
+        ],
+        "stores": [
+            "ExtlinerTreeStore"
+        ],
+        "views": [
+            "ExtlinerMainPanel"
+        ],
+        "autoCreateViewport": true,
+        "name": "MyApp",
+        "controllers": [
+            "ExtlinerController"
+        ]
+    },
+    "id": "ExtBox1-ext-gen1565",
+    "designerId": "application"
+}
